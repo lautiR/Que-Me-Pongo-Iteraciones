@@ -1,3 +1,5 @@
+package prenda;
+
 public class Colour {
     private Integer red;
     private Integer green;
