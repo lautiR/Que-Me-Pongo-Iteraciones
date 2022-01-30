@@ -29,7 +29,8 @@ public class Prenda {
         return this.tipoPrenda.getCategoria();
     }
     public Boolean soyAdecuadaParaElClima(BigDecimal temperatura) {
-        return this.temperaturaMaxima.doubleValue() < temperatura.doubleValue();
+        //Si la T de la prenda es mayor al clima actual, entonces se puede usar.
+        return this.temperaturaMaxima.doubleValue() > temperatura.doubleValue();
     }
 
 }

@@ -1,3 +1,5 @@
+package prenda;
+
 import excepciones.AtuendoInvalidoException;
 import prenda.Categoria;
 import prenda.Prenda;
