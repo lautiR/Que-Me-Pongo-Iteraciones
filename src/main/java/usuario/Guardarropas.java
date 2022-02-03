@@ -36,6 +36,8 @@ public class Guardarropas {
         propuesta.ejecutar(this);
     }
 
+
+
     //Este componente en realidad seria un desarrollo externo que nos darian. voy a hardcodearlo
     public Atuendo generarAtuendo (List<Prenda> prendas) {
         Prenda superior = this.obtenerPrendaDeLaCategoria(prendas,Categoria.SUPERIOR);

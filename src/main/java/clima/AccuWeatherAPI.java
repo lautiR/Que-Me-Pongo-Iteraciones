@@ -23,4 +23,10 @@ public final class AccuWeatherAPI {
             }});
         }});
     }
+    public Map<String,Object> getAlertas(String ciudad) {
+        Map<String ,Object> getAlertas= new HashMap<>();
+        getAlertas.put("Buenos Aires", Alerta.GRANIZO);
+        getAlertas.put("Rio de Janeiro", Alerta.TORMENTA);
+        return getAlertas;
+    }
 }
